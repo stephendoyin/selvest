@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title></title>
 
-    <link rel="stylesheet" href="assets/styles/styles-ac2ab4087b.css"/>
+    <link rel="stylesheet" href="assets/styles/styles-1e14ec6b57.css"/>
 
-    <script src="assets/scripts/Vendor-70d1b98e7c.js"></script>
+    <script src="assets/scripts/Vendor-9c0fef9dc3.js"></script>
   </head>
 
   <body>
@@ -18,7 +18,7 @@
         class="login__shape-one position-absolute"
         alt=""
       />
-      <img
+      <!-- <img
         src="assets/images/shape-login-three.png"
         class="login__shape-three position-absolute"
         alt=""
@@ -27,27 +27,37 @@
         src="assets/images/shape-login-four.png"
         class="login__shape-four position-absolute"
         alt=""
-      />
-      <nav class="nav px-md-5">
+      /> -->
+      <nav class="nav position-absolute">
         <div class="container-fluid">
-          <div class="d-flex justify-content-between align-items-center">
-            <a href="index.html">
-              <img src="assets/images/logo.png" class="logo" alt="" />
-            </a>
-            <div class="menu">
-              <a href="about.html" class="nav__link nav__link--js ml-5"
+          <div class="d-flex align-items-center px-md-5">
+            <div class="nav__menu">
+              <a href="index.html" class="">
+                <img src="assets/images/logo.png" class="logo" alt="" />
+              </a>
+              <a
+                href="about.html"
+                class="nav__link nav__link--js text-success d-none d-md-inline-block ml-5"
                 >About</a
               >
-              <a href="savings.html" class="nav__link nav__link--js ml-5"
+              <a
+                href="savings.html"
+                class="nav__link nav__link--js text-success ml-5 d-none d-md-inline-block"
                 >Save</a
               >
-              <a href="invest.html" class="nav__link ml-5">Invest</a>
+              <a
+                href="invest.html"
+                class="nav__link ml-5 text-success d-none d-md-inline-block"
+                >Invest</a
+              >
               <!-- <a href="" class="nav__link ml-5">Blog</a>
               <a href="" class="nav__link ml-5">FAQ</a> -->
+            </div>
+            <div class="">
               <a
-                href="signup.html"
-                class="nav__link ml-5 btn btn-sm btn-custom btn-outline-success c-header__btn text-success"
-                >Sign Up</a
+                href="Signup.html"
+                class="nav__link ml-5 btn btn-sm btn-success c-header__btn d-none d-md-block"
+                >Create an Account</a
               >
             </div>
             <div class="nav__menu-icon">
@@ -55,7 +65,7 @@
             </div>
           </div>
 
-          <div class="nav__menu">
+          <div class="nav__menu d-none">
             <a
               href="about.html"
               class="mx-auto text-center nav__link nav__link--mobile"
@@ -86,16 +96,11 @@
       </nav>
 
       <div class="container">
-        <img
-          src="assets/images/login-img.png"
-          class="position-absolute login__hero-img d-none d-md-block"
-          alt=""
-        />
-        <img
+        <!-- <img
           src="assets/images/shape-login.png"
           class="login__shape-two position-absolute"
           alt=""
-        />
+        /> -->
         <div class="row">
           <div class="col-md-6"></div>
           <div class="col-md-6">
@@ -168,6 +173,6 @@
       crossorigin="anonymous"
     ></script>
 
-    <script src="assets/scripts/App-77e25b28bc.js"></script>
+    <script src="assets/scripts/App-29c6482637.js"></script>
   </body>
 </html>

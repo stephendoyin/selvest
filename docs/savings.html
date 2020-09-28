@@ -6,37 +6,50 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title></title>
 
-    <link rel="stylesheet" href="assets/styles/styles-ac2ab4087b.css"/>
+    <link rel="stylesheet" href="assets/styles/styles-1e14ec6b57.css"/>
 
-    <script src="assets/scripts/Vendor-70d1b98e7c.js"></script>
+    <script src="assets/scripts/Vendor-9c0fef9dc3.js"></script>
   </head>
 
   <body>
     <header
-      class="c-header c-header--hero d-flex align-items-center position-relative"
+      class="c-header c-header--savings d-flex align-items-center position-relative"
     >
-      <nav class="nav px-md-5">
+      <nav class="nav position-absolute">
         <div class="container-fluid">
-          <div class="d-flex justify-content-between align-items-center">
-            <a href="index.html">
-              <img src="assets/images/logo.png" class="logo" alt="" />
-            </a>
-            <div class="menu">
-              <!-- <a href="" class="nav__link ml-5">About Us</a> -->
-
-              <a href="about.html" class="nav__link nav__link--js ml-5"
+          <div class="d-flex align-items-center px-md-5">
+            <div class="nav__menu">
+              <a href="index.html" class="">
+                <img src="assets/images/logo.png" class="logo" alt="" />
+              </a>
+              <a
+                href="about.html"
+                class="nav__link nav__link--js d-none d-md-inline-block ml-5"
                 >About</a
               >
-
-              <a href="savings.html" class="nav__link ml-5">Save</a>
-              <a href="invest.html" class="nav__link ml-5">Invest</a>
-              <!-- <a href="" class="nav__link ml-5">Blog</a>
-              <a href="" class="nav__link ml-5">FAQ</a> -->
-              <a href="login.html" class="nav__link ml-5">Sign In</a>
               <a
-                href="signup.html"
-                class="nav__link ml-5 btn btn-sm btn-custom btn-outline-success c-header__btn text-success"
-                >Create a free Account</a
+                href="savings.html"
+                class="nav__link nav__link--js ml-5 d-none d-md-inline-block"
+                >Save</a
+              >
+              <a
+                href="invest.html"
+                class="nav__link ml-5 d-none d-md-inline-block"
+                >Invest</a
+              >
+              <!-- <a href="" class="nav__link ml-5">Blog</a>
+            <a href="" class="nav__link ml-5">FAQ</a> -->
+              <a
+                href="login.html"
+                class="nav__link ml-5 d-none d-md-inline-block"
+                >Sign In</a
+              >
+            </div>
+            <div class="">
+              <a
+                href="Signup.html"
+                class="nav__link ml-5 px-4 btn btn-sm btn-success c-header__btn d-none d-md-block"
+                >Create an Account</a
               >
             </div>
             <div class="nav__menu-icon">
@@ -44,7 +57,7 @@
             </div>
           </div>
 
-          <div class="nav__menu">
+          <div class="nav__menu d-none">
             <a
               href="about.html"
               class="mx-auto text-center nav__link nav__link--mobile"
@@ -86,10 +99,10 @@
           <div
             class="c-header__text-container c-header__text-container--wide order-2 order-md-1 pt-md-5"
           >
-            <h1 class="c-bold c-header__title pb-3">
+            <h1 class="c-bold c-header__title pb-3 text-white">
               Take control of <br class="d-none d-md-block" />your money
             </h1>
-            <span class="c-normal c-header__text lead">
+            <span class="c-normal c-header__text lead text-white">
               14.00% Annual Percentage Yield. Set money aside with
               <br class="d-none d-md-block" />
               Automatic Savings features. And never pay a fee.
@@ -122,14 +135,9 @@
         <div class="row">
           <div class="col-12 mb-5 pb-5">
             <div class="text-center mx-auto">
-              <div
-                class="c-title text-success d-inline-block text-uppercase mb-4"
-              >
-                saving features
-              </div>
-              <h2 class="c-title__bigger pb-md-0 text-center">
-                Make your money work <br class="d-none d-sm-block" />
-                for you in 3 easy steps
+              <h2 class="c-title__bigger c-title pb-md-0 text-center">
+                Make your money work for you <br class="d-none d-sm-block" />
+                using selvest outstanding features
               </h2>
               <p class="c-lead-inline pt-3">
                 Plan for your future with our range of savings accounts
@@ -137,79 +145,123 @@
                 & medium-to-long term investment options
               </p>
             </div>
-          </div>
-          <div class="col-md-3 mt-5">
-            <div class="d-flex flex-column align-items-start">
-              <span
-                class="c-box d-flex mx-auto mb-3 text-center justify-content-center align-items-center rounded mr-4"
+            <div
+              class="d-flex justify-content-between flex-wrap align-items-stretch"
+            >
+              <div
+                class="steps__item steps__item--extended bg-white p-4 mt-5"
+                style="visibility: visible"
               >
-                <img src="assets/images/svg/piggy-bank.svg" width="" alt="" />
-              </span>
+                <div class="steps__icon mb-4 mt-2">
+                  <img src="assets/images/svg/save-money.svg" alt="" />
+                </div>
 
-              <div class="pb-4 pb-md-0">
-                <h5 class="text-center">Saving Goals</h5>
-                <p class="pr-sm-2 text-center">
+                <h5 class="steps__title c-title">Savings Goals</h5>
+                <p>
                   Save for anything from a vacation to a home. Just tell us what
                   you’re saving for, choose a savings rule, and we’ll do the
                   rest.
                 </p>
+                <a href="signup.html" class="steps__link"> Get started </a>
               </div>
-            </div>
-          </div>
-          <div class="col-md-3 mt-5">
-            <div class="d-flex flex-column align-items-start">
-              <span
-                class="c-box d-flex mx-auto mb-3 justify-content-center align-items-center rounded mr-4"
+              <div
+                class="steps__item steps__item--extended bg-white p-4 mt-5"
+                style="visibility: visible"
               >
-                <img src="assets/images/svg/piggy-bank.svg" width="" alt="" />
-              </span>
+                <div class="steps__icon mb-4 mt-2">
+                  <img src="assets/images/svg/sync.svg" alt="" />
+                </div>
 
-              <div class="pb-4 pb-md-0">
-                <h5 class="text-center">Automated Saving</h5>
-                <p class="pr-sm-2 text-center">
+                <h5 class="steps__title c-title">Automated saving</h5>
+                <p>
                   This feature allows you to set auto-debits from your debit
                   card automatically until you reach your goal.
                 </p>
+                <a href="" class="steps__link">
+                  Get started
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="8"
+                    height="14"
+                    viewBox="0 0 8 14"
+                    fill="none"
+                    class="ml-1"
+                  >
+                    <path
+                      d="M1 13L7 7L1 1"
+                      stroke="#018D8F"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </a>
               </div>
-            </div>
-          </div>
-          <div class="col-md-3 mt-5">
-            <div class="d-flex flex-column align-items-start">
-              <span
-                class="c-box d-flex mx-auto mb-3 justify-content-center align-items-center rounded mr-4"
+              <div
+                class="steps__item steps__item--extended bg-white p-4 mt-5"
+                style="visibility: visible"
               >
-                <img src="assets/images/svg/piggy-bank.svg" width="" alt="" />
-              </span>
+                <div class="steps__icon mb-4 mt-2">
+                  <img src="assets/images/svg/purse.svg" alt="" />
+                </div>
 
-              <div class="pb-4 pb-md-0">
-                <h5 class="text-center">Safelock</h5>
-                <p class="pr-sm-2 text-center">
+                <h5 class="steps__title c-title">Fixed savings</h5>
+                <p>
                   Save money away from spending for a self chosen duration, &
                   automatically get credited with interest set pay dat.
                 </p>
+                <a href="" class="steps__link">
+                  Get started
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="8"
+                    height="14"
+                    viewBox="0 0 8 14"
+                    fill="none"
+                    class="ml-1"
+                  >
+                    <path
+                      d="M1 13L7 7L1 1"
+                      stroke="#018D8F"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </a>
               </div>
-            </div>
-          </div>
-          <div class="col-md-3 mt-5">
-            <div class="d-flex flex-column align-items-start">
-              <span
-                class="c-box d-flex mx-auto mb-3 justify-content-center align-items-center rounded mr-4"
+              <div
+                class="steps__item steps__item--extended bg-white p-4 mt-5"
+                style="visibility: visible"
               >
-                <img src="assets/images/svg/piggy-bank.svg" width="" alt="" />
-              </span>
+                <div class="steps__icon mb-4 mt-2">
+                  <img src="assets/images/svg/percentage.svg" alt="" />
+                </div>
 
-              <div class="pb-4 pb-md-0">
-                <h5 class="text-center">15% on fixed Savings</h5>
-                <p class="pr-sm-2 text-center">
+                <h5 class="steps__title c-title">High interest savings</h5>
+                <p>
                   Grow your money with a high-yield savings account. Get a 15%
                   annualized bonus on your first 50K.
                 </p>
+                <a href="" class="steps__link">
+                  Get started
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="8"
+                    height="14"
+                    viewBox="0 0 8 14"
+                    fill="none"
+                    class="ml-1"
+                  >
+                    <path
+                      d="M1 13L7 7L1 1"
+                      stroke="#018D8F"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </a>
               </div>
             </div>
           </div>
-        </div>
-        <div class="text-center mt-4">
-          <button class="btn btn-custom btn-success">Get Started</button>
         </div>
       </div>
     </section>
@@ -219,11 +271,11 @@
         <div class="steps">
           <div class="row justify-content-between align-items-center">
             <div class="col-md-6">
-              <div class="pr-md-5">
+              <div class="pr-md-5 text-center">
                 <img
                   src="assets/images/gif-img.gif"
-                  class="rounded"
-                  width="100%"
+                  class="steps__gif"
+                  style="border-radius: 0.6rem"
                   alt=""
                 />
               </div>
@@ -237,7 +289,84 @@
                 budget for your next vacation, or put money away for a rainy
                 day.
               </p>
-              <div class="d-flex">
+              <div class="d-flex flex-column flex-md-row">
+                <ul class="m-0 p-0 pr-md-5">
+                  <li class="d-flex align-items-center pb-3">
+                    <span class="pr-3">
+                      <img
+                        src="assets/images/svg/check.svg"
+                        width="18"
+                        alt=""
+                      />
+                    </span>
+
+                    <span> Emergency fund </span>
+                  </li>
+
+                  <li class="d-flex align-items-center pb-3">
+                    <span class="pr-3">
+                      <img
+                        src="assets/images/svg/check.svg"
+                        width="18"
+                        alt=""
+                      />
+                    </span>
+
+                    <span> Student loans </span>
+                  </li>
+
+                  <li class="d-flex align-items-center pb-3">
+                    <span class="pr-3">
+                      <img
+                        src="assets/images/svg/check.svg"
+                        width="18"
+                        alt=""
+                      />
+                    </span>
+
+                    <span> Bills </span>
+                  </li>
+                </ul>
+                <ul class="m-0 p-0 pl-md-3">
+                  <li class="d-flex align-items-center pb-3">
+                    <span class="pr-3">
+                      <img
+                        src="assets/images/svg/check.svg"
+                        width="18"
+                        alt=""
+                      />
+                    </span>
+
+                    <span> Emergency fund </span>
+                  </li>
+
+                  <li class="d-flex align-items-center pb-3">
+                    <span class="pr-3">
+                      <img
+                        src="assets/images/svg/check.svg"
+                        width="18"
+                        alt=""
+                      />
+                    </span>
+
+                    <span> Student loans </span>
+                  </li>
+
+                  <li class="d-flex align-items-center pb-3">
+                    <span class="pr-3">
+                      <img
+                        src="assets/images/svg/check.svg"
+                        width="18"
+                        alt=""
+                      />
+                    </span>
+
+                    <span> Bills </span>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- <div class="d-flex">
                 <span
                   class="steps__number d-flex align-items-center justify-content-center c-normal mr-4"
                 >
@@ -296,7 +425,7 @@
                 <div class="pt-2">
                   <p>Buying or Building a Home</p>
                 </div>
-              </div>
+              </div> -->
               <div class="d-flex">
                 <div class="pt-5">
                   <p>And so much more...</p>
@@ -306,15 +435,16 @@
           </div>
         </div>
       </div>
+      <img
+        src="assets/images/shape.png"
+        class="position-absolute pattern__bg-right-down"
+        alt=""
+      />
     </section>
 
     <section class="">
-      <img
-        src="assets/images/shape-right.png"
-        class="position-absolute shape-right"
-        alt=""
-      />
-      <div class="container section">
+      ]
+      <div class="container section section--only-top">
         <div class="row align-items-center justify-content-between">
           <div class="col-md-5 mb-5 mb-md-0">
             <div class="row">
@@ -322,11 +452,59 @@
                 <div
                   class="c-title text-success d-inline-block text-uppercase mb-4"
                 >
-                  save &amp; invest
+                  automated saving
                 </div>
               </div>
             </div>
             <div class="">
+              <h2 class="c-title__bigger">
+                With selvest automatically saves money
+                <!-- <br class="d-none d-sm-block" /> -->
+                money for you.
+              </h2>
+              <p class="pt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                asperiores, debitis fuga doloremque quo reiciendis minus
+                expedita deleniti? Perferendis sapiente molestias unde labore
+                ducimus, maxime nam debitis blanditiis dolorum nemo.
+              </p>
+              <div class="mt-4">
+                <a href="" class="btn btn-success"> Get Started</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="assets/images/dot-pattern.png"
+              class="position-absolute dots__pattern"
+              alt=""
+            />
+            <img
+              src="assets/images/savings-mobile-mock.png"
+              width="100%"
+              class="mock-img-save position-relative"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white position-relative">
+      <div class="container section">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="pr-md-5">
+              <img src="assets/images/happy-girl.jpg" class="rounded" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div
+              class="c-title text-success d-inline-block text-uppercase mb-4 pl-md-5"
+            >
+              save &amp; invest
+            </div>
+            <div class="pl-md-5">
               <h2 class="c-title__bigger">
                 Instant transactions to or
                 <!-- <br class="d-none d-sm-block" /> -->
@@ -338,44 +516,8 @@
                 SelVest members
               </p>
             </div>
-          </div>
-          <div class="col-md-6">
-            <img src="assets/images/flex-img.jpg" width="100%" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="bg-white position-relative">
-      <img
-        src="assets/images/curve-pattern.png"
-        class="curve-pattern position-absolute"
-        alt=""
-      />
-      <img
-        src="assets/images/curve-pattern-2.png"
-        class="curve-pattern--two position-absolute"
-        alt=""
-      />
-      <div class="container section">
-        <div class="row">
-          <div
-            class="d-inline-block logo__container bg-white mx-auto shadow p-5 d-flex justify-content-center align-items-center"
-          >
-            <img src="assets/images/svg/logo.svg" width="75px" alt="" />
-          </div>
-          <div class="col-12">
-            <h1 class="text-center c-bold c-header__title py-5">Get the app</h1>
-            <p class="text-center lead">
-              Spend happily and find your Spending Sweet Spot.
-            </p>
-            <p class="text-center lead">Save smartly with Goals and Rules.</p>
-            <p class="text-center lead">
-              Invest confidently in pre-built portfolios.
-            </p>
-
-            <div class="text-center mt-5">
-              <button class="btn btn-custom btn-success">Get Started</button>
+            <div class="mt-4">
+              <a href="" class="btn btn-success"> Get Started</a>
             </div>
           </div>
         </div>
@@ -398,11 +540,11 @@
           <div class="col-12">
             <div class="text-center mx-auto">
               <div
-                class="c-title text-success d-inline-block text-uppercase mb-4"
+                class="c-title text-white title-bg d-inline-block text-uppercase mb-4"
               >
                 STORIES
               </div>
-              <h2 class="c-title__bigger pb-5 text-center">
+              <h2 class="pb-5 text-center c-title">
                 What our members are <br class="d-none d-sm-block" />
                 saying about us
               </h2>
@@ -410,56 +552,71 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-9 mx-auto">
+          <div class="col-12 owl-carousel owl-theme slider-custom">
             <div
-              class="testimonial__box py-4 px-5 bg-white d-flex flex-column flex-md-row align-items-center"
+              class="testimonial__box py-4 px-3 bg-white d-flex flex-column align-items-center"
             >
-              <div class="testimonial__avatar shadow-sm mr-4">
+              <div class="testimonial__avatar shadow-sm">
                 <img src="assets/images/avatar.jpg" alt="" />
               </div>
               <div
                 class="testimonial__content text-center text-md-left mt-3 mt-md-0"
               >
-                <p class="testimonial__text c-normal px-1">
+                <p class="testimonial__text text-center c-normal px-1 pt-3">
                   &OpenCurlyDoubleQuote;The options on “savings” that it gives
                   you, help you save money without you even stressing! The
                   easiest way to save hands down!&CloseCurlyDoubleQuote;.
                 </p>
 
-                <small class="testimonial__label"> Fadeyi Thompson </small>
+                <small
+                  class="testimonial__label d-block text-center c-title mx-auto"
+                >
+                  Fadeyi Thompson
+                </small>
               </div>
             </div>
             <div
-              class="testimonial__box py-4 px-5 bg-white d-flex flex-column flex-md-row align-items-center"
+              class="testimonial__box py-4 px-3 bg-white d-flex flex-column align-items-center"
             >
-              <div class="testimonial__avatar shadow-sm mr-4">
+              <div class="testimonial__avatar shadow-sm">
                 <img src="assets/images/avatar.jpg" alt="" />
               </div>
-              <div class="testimonial__content">
-                <p class="testimonial__text c-normal px-1">
-                  &OpenCurlyDoubleQuote;I am so bad at saving and this app has
-                  really helped me save towards multiple goals, evaluate my
-                  spending habits and has made me all around better at managing
-                  my money. Thank you.&CloseCurlyDoubleQuote;.
+              <div
+                class="testimonial__content text-center text-md-left mt-3 mt-md-0"
+              >
+                <p class="testimonial__text text-center c-normal px-1 pt-3">
+                  &OpenCurlyDoubleQuote;The options on “savings” that it gives
+                  you, help you save money without you even stressing! The
+                  easiest way to save hands down!&CloseCurlyDoubleQuote;.
                 </p>
 
-                <small class="testimonial__label"> Fadeyi Thompson </small>
+                <small
+                  class="testimonial__label d-block text-center c-title mx-auto"
+                >
+                  Fadeyi Thompson
+                </small>
               </div>
             </div>
             <div
-              class="testimonial__box py-4 px-5 bg-white d-flex flex-column flex-md-row align-items-center"
+              class="testimonial__box py-4 px-3 bg-white d-flex flex-column align-items-center"
             >
-              <div class="testimonial__avatar shadow-sm mr-4">
+              <div class="testimonial__avatar shadow-sm">
                 <img src="assets/images/avatar.jpg" alt="" />
               </div>
-              <div class="testimonial__content">
-                <p class="testimonial__text c-normal px-1">
-                  &OpenCurlyDoubleQuote;Great tool to help manage finances
-                  smarter and even allows you to create a personalized savings
-                  goal to help you save!! Great app!&CloseCurlyDoubleQuote;.
+              <div
+                class="testimonial__content text-center text-md-left mt-3 mt-md-0"
+              >
+                <p class="testimonial__text text-center c-normal px-1 pt-3">
+                  &OpenCurlyDoubleQuote;The options on “savings” that it gives
+                  you, help you save money without you even stressing! The
+                  easiest way to save hands down!&CloseCurlyDoubleQuote;.
                 </p>
 
-                <small class="testimonial__label"> Fadeyi Thompson </small>
+                <small
+                  class="testimonial__label d-block text-center c-title mx-auto"
+                >
+                  Fadeyi Thompson
+                </small>
               </div>
             </div>
           </div>
@@ -467,7 +624,44 @@
       </div>
     </section>
 
-    <section class="strip__section">
+    <section class="bg-white position-relative">
+      <div class="container section">
+        <div class="row">
+          <div class="col-12 mb-5 pb-5">
+            <div class="text-center mx-auto">
+              <div
+                class="c-title title-bg text-white d-inline-block text-uppercase mb-4"
+              >
+                OUR PARTNERS
+              </div>
+              <h2 class="c-title pb-md-0 text-center">
+                We partner with some of the<br class="d-none d-sm-block" />
+                best investment companies
+              </h2>
+              <div class="d-flex flex-wrap justify-content-between mt-5 pt-5">
+                <div class="partner__img-container text-center">
+                  <img src="assets/images/citi.png" alt="" />
+                </div>
+                <div class="partner__img-container text-center">
+                  <img src="assets/images/landmark.png" alt="" />
+                </div>
+                <div class="partner__img-container text-center">
+                  <img src="assets/images/oak.png" alt="" />
+                </div>
+                <div class="partner__img-container text-center">
+                  <img src="assets/images/invest-one.png" alt="" />
+                </div>
+                <div class="partner__img-container text-center">
+                  <img src="assets/images/oxford.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="strip__section" id="download">
       <div class="container-fluid py-5">
         <div class="row">
           <div class="col-sm-12 mx-auto">
@@ -483,15 +677,20 @@
               <div
                 class="text-center shadow mx-auto d-inline-flex flex-column flex-md-row mt-2"
               >
-                <div class="c-input__container px-2">
-                  <img src="assets/images/svg/mail.svg" class="mx-2" alt="" />
-                  <input type="text" class="c-input" placeholder="Email" />
-                </div>
-                <button
-                  class="btn btn-primary btn-custom text-white ml-md-2 shadow mt-3 mt-md-0"
-                >
-                  Send link
-                </button>
+                <a href="" class="mr-1 mr-sm-2 mb-3 mb-sm-0 d-inline-block"
+                  ><img
+                    src="assets/images/google-play.png"
+                    class="download-link"
+                    alt=""
+                  />
+                </a>
+                <a href="" class="d-inline-block"
+                  ><img
+                    src="assets/images/apple-store.png"
+                    class="download-link"
+                    alt=""
+                  />
+                </a>
               </div>
             </div>
           </div>
@@ -548,10 +747,10 @@
           >
             <ul class="footer__list-wrapper">
               <li class="footer__list__header">Quick Links</li>
-              <li><a href="">Plan</a></li>
-              <li><a href="">Save</a></li>
-              <li><a href="">Invest</a></li>
-              <li><a href="">Blog</a></li>
+              <li><a class="footer__link" href="">Plan</a></li>
+              <li><a class="footer__link" href="">Save</a></li>
+              <li><a class="footer__link" href="">Invest</a></li>
+              <li><a class="footer__link" href="">Blog</a></li>
             </ul>
           </div>
           <div
@@ -559,10 +758,10 @@
           >
             <ul class="footer__list-wrapper">
               <li class="footer__list__header">Company</li>
-              <li><a href="">About</a></li>
-              <li><a href="">FAQ</a></li>
-              <li><a href="">Terms &amp Policy</a></li>
-              <li><a href="">Privacy Policy</a></li>
+              <li><a class="footer__link" href="">About</a></li>
+              <li><a class="footer__link" href="">FAQ</a></li>
+              <li><a class="footer__link" href="">Terms &amp Policy</a></li>
+              <li><a class="footer__link" href="">Privacy Policy</a></li>
             </ul>
           </div>
           <div
@@ -602,6 +801,6 @@
       crossorigin="anonymous"
     ></script>
 
-    <script src="assets/scripts/App-77e25b28bc.js"></script>
+    <script src="assets/scripts/App-29c6482637.js"></script>
   </body>
 </html>
