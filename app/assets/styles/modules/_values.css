@@ -1,0 +1,15 @@
+.value {
+  &__item {
+    width: 47%;
+    margin-top: 3rem;
+    p {
+      max-width: 400px;
+    }
+  }
+  &__icon-box {
+    width: 60px;
+    height: 60px;
+    border-radius: 13px;
+    background: #40e0d01c;
+  }
+}
