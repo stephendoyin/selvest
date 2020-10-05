@@ -12,8 +12,23 @@
 
   &__menu {
     width: 100%;
-    &--right {
-      justify-content: flex-end;
+    &--mobile {
+      top: 0;
+      left: 0;
+      z-index: 0;
+      padding: 0;
+      height: 0;
+      overflow: hidden;
+      font-size: 1rem;
+      opacity: 0;
+      transition: height 0.2s linear;
+
+      &--open {
+        height: 345px;
+        z-index: 44;
+        opacity: 1;
+        padding: 15px 0;
+      }
     }
   }
 
@@ -21,10 +36,17 @@
     color: #fff;
     font-size: 0.95rem;
     position: relative;
-    &.active::after{
+    &--mobile {
+      height: 60px;
+      text-align: center;
+      color: var(--success);
+      display: flex;
+      align-items: center;
+    }
+    &.active::after {
       width: 15px;
     }
-    &::after{
+    &::after {
       content: "";
       position: absolute;
       height: 2px;
@@ -32,16 +54,16 @@
       background: #fff;
       bottom: -5px;
       left: 0;
-      transition: width .2s linear;
+      transition: width 0.2s linear;
     }
     &:hover {
       color: var(--white);
-      &::after{
+      &::after {
         width: 15px;
       }
     }
-    
-    &.active:after{
+
+    &.active:after {
       width: 15px;
     }
   }

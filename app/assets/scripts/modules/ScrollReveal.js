@@ -38,10 +38,10 @@ class ScrollRevealScript {
     });
     ScrollReveal().reveal(".js-scale-up", {
       delay: 0,
-      distance: "200px",
+      // distance: "200px",
       duration: 1000,
       easing: "ease-in",
-      scale: 0.2,
+      scale: 0.5,
       opacity: 0.05,
     });
   }

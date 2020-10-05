@@ -177,6 +177,7 @@ a:hover {
 .pattern__bg-right {
   right: 0;
   top: 0;
+  width: 15%;
 }
 
 .dot-pattern {
@@ -194,6 +195,7 @@ a:hover {
 .pattern__bg-right-down {
   right: 0;
   bottom: 0;
+  width: 15%;
 }
 
 img {
@@ -237,4 +239,10 @@ img {
 
 .download-link {
   max-height: 60px;
+}
+
+.pattern__bg-left {
+  left: 0;
+  top: 0;
+  width: 15%;
 }

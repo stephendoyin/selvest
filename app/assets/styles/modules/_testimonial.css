@@ -30,9 +30,11 @@
   &__bg {
     bottom: 0;
     right: 0;
+    width: 15%;
     &-two {
       left: 0;
       top: 0;
+      width: 15%;
     }
   }
 }

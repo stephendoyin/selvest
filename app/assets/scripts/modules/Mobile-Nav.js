@@ -1,16 +1,19 @@
 class MobileNav {
   constructor() {
-    this.NavMenu = document.querySelector(".nav__menu");
-    this.nav = document.querySelector(".nav");
+    this.NavMobile = document.querySelector(".nav__menu--mobile");
+    this.closeBtn = document.querySelector(".close_btn");
     this.menuBtn = document.querySelector(".nav__menu-icon");
-    this.navMenuIconLine = document.querySelector(".nav__menu-icon__line");
     this.mobileEvent();
   }
   mobileEvent() {
-    this.menuBtn.addEventListener("click", e => {
-      this.navMenuIconLine.classList.toggle("nav__menu-icon__line--crossed");
-      this.NavMenu.classList.toggle("nav__menu--show");
-      this.nav.classList.add("nav__sticky", "bg-white", "shadow-sm");
+    this.menuBtn.addEventListener("click", (e) => {
+      this.NavMobile.classList.add("nav__menu--mobile--open");
+      document.body.style.overflow = "hidden";
+    });
+
+    this.closeBtn.addEventListener("click", () => {
+      this.NavMobile.classList.remove("nav__menu--mobile--open");
+      document.body.style.overflow = "auto";
     });
   }
 }
