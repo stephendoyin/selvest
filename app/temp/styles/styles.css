@@ -16438,11 +16438,11 @@ img {
   }
 
 .c-header--about {
-    background: url(../../assets/images/about-hero.png);
+    background: url(../../assets/images/about.jpg);
     background-color: #fff;
-    background-position: center bottom;
+    background-position: center top;
     background-size: cover;
-    min-height: 70vh;
+    /* min-height: 70vh; */
   }
 
 .c-header__btn {
@@ -16604,8 +16604,8 @@ img {
 
 .steps__item {
     width: 100%;
-    box-shadow: 0px 4px 2px 4px rgba(0, 0, 0, 0.03),
-      0px 4px 22px 4px rgba(0, 0, 0, 0.08);
+    /* box-shadow: 0px 4px 2px 4px rgba(0, 0, 0, 0.03), */
+    /* 0px 4px 22px 4px rgba(0, 0, 0, 0.08); */
     border-radius: 11px;
   }
 

@@ -35,11 +35,11 @@
   }
 
   &--about {
-    background: url(../../assets/images/about-hero.png);
+    background: url(../../assets/images/about.jpg);
     background-color: #fff;
-    background-position: center bottom;
+    background-position: center top;
     background-size: cover;
-    min-height: 70vh;
+    /* min-height: 70vh; */
   }
 
   &__btn {
