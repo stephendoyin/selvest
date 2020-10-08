@@ -11,6 +11,11 @@
     /* box-shadow: 0px 4px 2px 4px rgba(0, 0, 0, 0.03), */
     /* 0px 4px 22px 4px rgba(0, 0, 0, 0.08); */
     border-radius: 11px;
+    transform: translateY(0);
+    transition: all 0.3s linear;
+    &:hover {
+      transform: translateY(-10px);
+    }
   }
   &__link {
     color: #018d8f;

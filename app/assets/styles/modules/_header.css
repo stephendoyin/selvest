@@ -48,6 +48,9 @@
     font-size: 0.9rem !important;
     padding: 0.7rem 0.7rem;
     white-space: nowrap;
+    &::after {
+      display: none;
+    }
   }
   &__inner {
     width: 100%;
@@ -114,9 +117,9 @@
     z-index: 22;
   }
 }
-
+/* 
 @media (min-width: 567px) {
-}
+} */
 
 @media (min-width: 768px) {
   .c-header__text-container {

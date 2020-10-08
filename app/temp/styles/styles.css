@@ -16461,6 +16461,10 @@ img {
     white-space: nowrap;
   }
 
+.c-header__btn::after {
+      display: none;
+    }
+
 .c-header__inner {
     width: 100%;
   }
@@ -16534,8 +16538,9 @@ img {
     z-index: 22;
   }
 
+/* 
 @media (min-width: 567px) {
-}
+} */
 
 @media (min-width: 768px) {
   .c-header__text-container {
@@ -16638,7 +16643,13 @@ img {
     /* box-shadow: 0px 4px 2px 4px rgba(0, 0, 0, 0.03), */
     /* 0px 4px 22px 4px rgba(0, 0, 0, 0.08); */
     border-radius: 11px;
+    transform: translateY(0);
+    transition: all 0.3s linear;
   }
+
+.steps__item:hover {
+      transform: translateY(-10px);
+    }
 
 .steps__link {
     color: #018d8f;
